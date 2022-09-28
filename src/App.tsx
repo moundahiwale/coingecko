@@ -1,4 +1,5 @@
 import './App.css';
+import Markets from './components/markets/Markets';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         CoinGecko Markets
         </p>
       </header>
+      <Markets></Markets>
     </div>
   );
 }
