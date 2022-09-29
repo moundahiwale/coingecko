@@ -8,9 +8,22 @@ const fetchMarkets = async () => {
 
     return response.data;
   } catch (error) {
-    // For PROD, log errors to something like TrackJS, etc. 
+    // For PROD, log errors to something like TrackJS, etc.
     console.error(error);
   }
 };
 
-export { fetchMarkets };
+const fetchCoin = async (id: string) => {
+  try {
+    let response = await axios.get(
+      `${process.env.REACT_APP_BASE_COINGECKO_API_URL}/coins/${id}`
+    );
+
+    return response.data;
+  } catch (error) {
+    // For PROD, log errors to something like TrackJS, etc.
+    console.error(error);
+  }
+};
+
+export { fetchMarkets, fetchCoin };

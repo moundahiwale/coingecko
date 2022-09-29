@@ -1,15 +1,13 @@
 import './App.css';
-import Markets from './components/markets/Markets';
+import Cryptocurrencies from './components/cryptocurrencies/Cryptocurrencies';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-        CoinGecko Markets
-        </p>
+    <div className='App'>
+      <header className='App-header'>
+        <p>Cryptocurrency Prices</p>
       </header>
-      <Markets></Markets>
+      <Cryptocurrencies></Cryptocurrencies>
     </div>
   );
 }

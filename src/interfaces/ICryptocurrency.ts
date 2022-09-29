@@ -1,4 +1,4 @@
-interface IMarket {
+interface ICryptocurrency {
   image: string;
   name: string;
   symbol: string;
@@ -7,4 +7,4 @@ interface IMarket {
   low_24h: number;
 }
 
-export default IMarket;
+export default ICryptocurrency;

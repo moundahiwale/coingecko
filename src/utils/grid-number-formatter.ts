@@ -8,7 +8,7 @@ const formatNumberToTwoDecimalPlaces = (
   }
 
   const valueFormatted = params.value.toFixed(2);
-  return `${valueFormatted}`;
+  return `€${valueFormatted}`;
 };
 
 export { formatNumberToTwoDecimalPlaces };

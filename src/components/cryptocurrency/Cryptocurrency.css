@@ -1,0 +1,44 @@
+.coin {
+  margin: 4rem;
+}
+
+.rank {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  background-color: rgba(31, 41, 55, 1);
+  color: rgba(243, 244, 246, 1);
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.details {
+  font-size: 13px;
+  line-height: 1.425;
+  display: flex;
+}
+
+.children {
+  flex: 1;
+}
+
+.text {
+  color: rgba(107, 114, 128, 1);
+}
+
+.content {
+  color: rgba(17, 24, 39, 1);
+  font-weight: 500;
+  text-align: right;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 1.425;
+}
